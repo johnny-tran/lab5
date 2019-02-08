@@ -44,3 +44,19 @@ function anagrammedName(name) {
 		return name;
 	}
 }
+
+function nameCick() {
+	$("#target").click(function(changeText) {
+		changeText.preventDefault(); //prevent page from loading
+			$(this).text("FTW");
+	}
+}
+
+//		var containingProject = $(this).text("{{name}}");
+//   	var description = $(containingProject).find("{{name}}");
+//   	$(containingProject).append(anagrammedName(name));
+
+
+
+
+

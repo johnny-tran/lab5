@@ -16,3 +16,7 @@ h1, h2, h3, h4, h5 {
 .friends {
 	max-width: 150px;
 }
+
+#target {
+	font-size: 15pt;
+}
